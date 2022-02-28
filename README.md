@@ -3,7 +3,7 @@
 
 # DB Schema
 
-![alt text]https://i.imgur.com/ejRH96G.png
+https://i.imgur.com/ejRH96G.png
 
 
 
