@@ -1,8 +1,6 @@
 # Lumen PHP Framework
 
 
-# DB Schema
-
 https://i.imgur.com/ejRH96G.png
 
 
