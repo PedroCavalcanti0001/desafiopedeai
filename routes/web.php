@@ -41,3 +41,10 @@ $router->group(["prefix" => "/api/recipe/images"], function () use ($router) {
     $router->put("/{id}", "RecipeImageController@update");
     $router->delete("/{id}", "RecipeImageController@destroy");
 });
+
+$router->group(["prefix" => "/api/recipe/categories"], function () use ($router) {
+    $router->get("/{id}", "RecipesCategoriesController@get");
+    $router->post("/", "RecipesCategoriesController@store");
+    $router->put("/{id}", "RecipesCategoriesController@update");
+    $router->delete("/{id}", "RecipesCategoriesController@destroy");
+});
