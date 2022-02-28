@@ -13,8 +13,8 @@
 |
 */
 $router->get("/api/recipes", "RecipesController@getAll");
-$router->get("/api/recipes/steps", "RecipeStepController@getAll");
 $router->get("/api/categories", "CategoriesController@getAll");
+
 $router->group(["prefix" => "/api/recipe"], function () use ($router) {
     $router->get("/{id}", "RecipesController@get");
     $router->post("/", "RecipesController@store");
